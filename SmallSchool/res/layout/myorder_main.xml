@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="80px"
+        android:background="#B6DED3" >
+
+        <ImageView
+            android:id="@+id/myreservation_imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="30px"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/fanhuijiantou" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30px"
+            android:text="我的订单   MY ORDER"
+            android:textSize="30px" 
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/myreservationlistview"
+        android:layout_width="wrap_content"
+        android:layout_height="300px" >
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="合计："
+            android:textSize="25px" />
+
+        <ListView
+            android:id="@+id/myreservationlistview_it"
+            android:layout_width="80px"
+            android:layout_height="25px"
+            android:layout_gravity="center_vertical" >
+        </ListView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/myreservation_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#B6DED3"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20px"
+        android:text="下一步"
+        android:textSize="40px"
+        android:textColor="#FFFFFF" />
+
+    <LinearLayout
+        android:id="@+id/button_main_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_weight="0" >
+
+        <include layout="@layout/button_main" />
+    </LinearLayout>
+
+</LinearLayout>

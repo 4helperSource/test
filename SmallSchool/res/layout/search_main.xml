@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!--
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="fill_parent"
+        android:layout_height="80px"
+        android:background="#B6DED3"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/citytextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/autocomplete_country"
+            android:layout_alignBottom="@+id/autocomplete_country"
+            android:layout_alignParentLeft="true"
+            android:text="北京" />
+
+        <AutoCompleteTextView
+            android:id="@+id/autocomplete_country"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:completionThreshold="1"
+            android:drawableLeft="@drawable/ssousuo"
+            android:ems="8" >
+        </AutoCompleteTextView>
+    </LinearLayout>
+    -->
+
+    <LinearLayout
+        android:id="@+id/city_main_zhuceid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <include layout="@layout/city_main" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/layout"
+        android:layout_below="@+id/layout"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="30px"
+        android:text="热门搜索"
+        android:textSize="50px" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30px"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/chinesebutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30px"
+            android:background="#B6DED3"
+            android:text="语文"
+            android:textColor="#FFFFFF"
+            android:textSize="40px" />
+
+        <Button
+            android:id="@+id/mathematicsbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30px"
+            android:background="#B6DED3"
+            android:text="数学"
+            android:textColor="#FFFFFF"
+            android:textSize="40px" />
+
+        <Button
+            android:id="@+id/englishbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30px"
+            android:background="#B6DED3"
+            android:text="英语"
+            android:textColor="#FFFFFF"
+            android:textSize="40px" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30px"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/physicsbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30px"
+            android:background="#B6DED3"
+            android:text="物理"
+            android:textColor="#FFFFFF"
+            android:textSize="40px" />
+
+        <Button
+            android:id="@+id/chemistrybutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30px"
+            android:background="#B6DED3"
+            android:text="化学"
+            android:textColor="#FFFFFF"
+            android:textSize="40px" />
+
+        <Button
+            android:id="@+id/artbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30px"
+            android:background="#B6DED3"
+            android:text="艺术"
+            android:textColor="#FFFFFF"
+            android:textSize="40px" />
+    </LinearLayout>
+
+</LinearLayout>

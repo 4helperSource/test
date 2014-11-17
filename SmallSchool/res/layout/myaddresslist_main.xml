@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="80px"
+        android:background="#B6DED3" >
+
+        <ImageView
+            android:id="@+id/myaddresslist_imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="30px"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/fanhuijiantou" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30px"
+            android:text="我的地址   MY ADDRESS"
+            android:textColor="#FFFFFF"
+            android:textSize="30px" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50px"
+        android:layout_marginLeft="15px"
+        android:layout_marginTop="15px"
+        android:background="#E1E4E9"
+        android:gravity="center_vertical"
+        android:text="上课地址"
+        android:textColor="#000000"
+        android:textSize="30px" />
+
+    <ListView
+        android:id="@+id/myaddresslist_listview"
+        android:layout_width="wrap_content"
+        android:layout_height="100px"
+        android:layout_marginLeft="15px" >
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:layout_width="35px"
+            android:layout_height="35px"
+            android:layout_marginLeft="15px"
+            android:src="@drawable/shezhi" />
+
+        <TextView
+            android:id="@+id/myaddresslist_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15px"
+            android:text="编辑修改"
+            android:textSize="25px" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/myaddresslist_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="去结算"
+        android:textSize="30px" />
+
+    <LinearLayout
+        android:id="@+id/button_main_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" 
+        android:layout_marginBottom="10px">
+
+        <include layout="@layout/button_main" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="60dp"
+    android:background="@drawable/liebiaodise" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/liebiaodise"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/shouyetextview"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1.0"
+            android:background="@drawable/liebiaodise"
+            android:orientation="vertical"
+            android:paddingBottom="5dp" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:padding="6dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/home" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:padding="2dp"
+                android:text="首页"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/paihangtextview"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1.0"
+            android:background="@drawable/liebiaodise"
+            android:orientation="vertical"
+            android:paddingBottom="5dp" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:padding="6dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/paihang" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:padding="2dp"
+                android:text="排行"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/huodongtextview"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1.0"
+            android:background="@drawable/liebiaodise"
+            android:orientation="vertical"
+            android:paddingBottom="5dp" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:padding="6dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/huodong" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:padding="2dp"
+                android:text="活动"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/zhanghaotextview"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1.0"
+            android:background="@drawable/liebiaodise"
+            android:orientation="vertical"
+            android:paddingBottom="5dp" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:padding="6dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/menu_allfriends" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:padding="2dp"
+                android:text="账号"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

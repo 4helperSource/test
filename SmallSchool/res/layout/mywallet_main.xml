@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="80px"
+        android:background="#B6DED3" >
+
+        <ImageView
+            android:id="@+id/mywallet_imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="30px"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/fanhuijiantou" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/mywallet_listview_touxiang"
+        android:layout_width="wrap_content"
+        android:layout_height="100px" >
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40px"
+        android:background="#B6DED3" >
+
+        <ImageView
+            android:layout_width="40px"
+            android:layout_height="30px"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="60px"
+            android:src="@drawable/qianbao" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30px"
+            android:text="我的钱包"
+            android:textColor="#000000"
+            android:textSize="25px" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60px" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="60px"
+            android:text="账户余额"
+            android:textSize="30px" />
+
+        <ListView
+            android:id="@+id/mywallet_listview_zhanghuyue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200px" >
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60px" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="60px"
+            android:text="充值"
+            android:textSize="30px" />
+
+        <ListView
+            android:id="@+id/mywallet_listview_chongzhi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200px" >
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60px" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="60px"
+            android:text="优惠券"
+            android:textSize="30px" />
+
+        <ListView
+            android:id="@+id/mywallet_listview_youhuiquan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200px" >
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/button_main_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_weight="0" >
+
+        <include layout="@layout/button_main" />
+    </LinearLayout>
+
+</LinearLayout>

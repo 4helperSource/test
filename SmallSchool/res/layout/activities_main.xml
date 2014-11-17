@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="80px"
+        android:background="#B6DED3" >
+
+        <ImageView
+            android:id="@+id/activites_imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="30px"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/fanhuijiantou" />
+
+        <ImageView
+            android:id="@+id/activites_imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="30px"
+            android:layout_marginLeft="340px"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/fenxiang" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/activites_listview_huodong"
+        android:layout_width="wrap_content"
+        android:layout_height="550px"
+        android:text="点击" />
+    
+    <LinearLayout
+        android:id="@+id/button_main_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_weight="0"
+        android:baselineAligned="false" >
+
+        <include layout="@layout/button_main" />
+    </LinearLayout>
+
+</LinearLayout>

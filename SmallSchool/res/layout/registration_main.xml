@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!--
+    <LinearLayout
+        android:id="@+id/addss"
+        android:layout_width="fill_parent"
+        android:layout_height="60px"
+        android:background="#B6DED3"
+        android:gravity="center" >
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="80px"
+            android:layout_height="wrap_content" />
+
+        <ImageButton
+            android:id="@+id/imagebutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#B6DED3"
+            android:src="@drawable/ssousuo" />
+    </LinearLayout>
+    -->
+
+    <LinearLayout
+        android:id="@+id/city_main_zhuceid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <include layout="@layout/city_main" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="注册账户"
+        android:textSize="30px" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="REGISTRATION" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="手机"
+            android:textSize="30px" />
+
+        <EditText
+            android:id="@+id/shoujiedittext"
+            android:layout_width="300px"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="获取验证码"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="GETS THE VERIFICATION CODE" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="验证"
+            android:textSize="30px" />
+
+        <EditText
+            android:id="@+id/shoujiedittext"
+            android:layout_width="300px"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密码"
+            android:textSize="30px" />
+
+        <EditText
+            android:id="@+id/shoujiedittext"
+            android:layout_width="300px"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="确认"
+            android:textSize="30px" />
+
+        <EditText
+            android:id="@+id/shoujiedittext"
+            android:layout_width="300px"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        <CheckBox
+            android:id="@+id/xieyicheckbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/xieyitextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="阅读并同意《软件许可及服务协议》" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/zhucebutton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="注册" />
+
+    <!--
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="80px"
+        android:background="@drawable/liebiaodise" >
+
+        <TextView
+            android:id="@+id/shouyetextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/home"
+            android:gravity="center_horizontal"
+            android:text="首页"
+            android:textColor="#FFFFFF"
+            android:textSize="20px" />
+
+        <TextView
+            android:id="@+id/paihangtextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/paihang"
+            android:gravity="center_horizontal"
+            android:text="排行"
+            android:textColor="#FFFFFF"
+            android:textSize="20px" />
+
+        <TextView
+            android:id="@+id/huodongtextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/huodong"
+            android:gravity="center_horizontal"
+            android:text="活动"
+            android:textColor="#FFFFFF"
+            android:textSize="20px" />
+
+        <TextView
+            android:id="@+id/zhanghaotextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/menu_allfriends"
+            android:gravity="center_horizontal"
+            android:text="账号"
+            android:textColor="#FFFFFF"
+            android:textSize="18px" />
+    </LinearLayout>
+    -->
+
+    <LinearLayout
+        android:id="@+id/button_main_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_weight="0" >
+
+        <include layout="@layout/button_main" />
+    </LinearLayout>
+
+</LinearLayout>

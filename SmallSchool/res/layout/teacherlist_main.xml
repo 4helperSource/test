@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#B6DED3"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/list_imageview_fanhui"
+                android:layout_width="wrap_content"
+                android:layout_height="30px"
+                android:src="@drawable/fanhuijiantou" />
+
+            <ImageView
+                android:id="@+id/list_imageview_fenxiang"
+                android:layout_width="wrap_content"
+                android:layout_height="30px"
+                android:layout_marginLeft="350px"
+                android:src="@drawable/fenxiang" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/xingxi"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <ListView
+                android:id="@+id/teacherlistlistview"
+                android:layout_width="50px"
+                android:layout_height="40px" />
+
+            <ImageView
+                android:id="@+id/list_imageview_shoucang"
+                android:layout_width="wrap_content"
+                android:layout_height="40px"
+                android:layout_marginRight="5px"
+                android:src="@drawable/shoucang" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50px"
+        android:background="@drawable/bg" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/teacherlisthaoping"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="好评"
+                android:textColor="#FFFFFF"
+                android:textSize="20px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/teacherlistzhongping"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="中评"
+                android:textColor="#FFFFFF"
+                android:textSize="20px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/teacherlistchaping"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="差评"
+                android:textColor="#FFFFFF"
+                android:textSize="20px" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:layout_width="80px"
+            android:layout_height="80px"
+            android:layout_marginBottom="40px"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="20px"
+            android:layout_marginTop="20px"
+            android:src="@drawable/laoshijieshao" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30px"
+                android:text="老师介绍"
+                android:textSize="30px" />
+
+            <ListView
+                android:id="@+id/list_listview_laoshipingjia"
+                android:layout_width="wrap_content"
+                android:layout_height="60px" >
+            </ListView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:layout_width="80px"
+            android:layout_height="80px"
+            android:layout_marginBottom="40px"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="20px"
+            android:layout_marginTop="20px"
+            android:src="@drawable/laoshijiage" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30px"
+                android:text="课时价格"
+                android:textSize="30px" />
+
+            <ListView
+                android:id="@+id/list_listview_laoshijiage"
+                android:layout_width="wrap_content"
+                android:layout_height="60px" >
+            </ListView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:layout_width="50px"
+            android:layout_height="50px"
+            android:layout_marginLeft="30px"
+            android:src="@drawable/laoshiyuyuebiao" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="50px"
+            android:text="课时价格"
+            android:textSize="30px" />
+
+        <ListView
+            android:id="@+id/list_listview_laoshishijian"
+            android:layout_width="wrap_content"
+            android:layout_height="50px"
+            android:layout_marginLeft="10px" >
+        </ListView>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_listview_laoshiriqi"
+        android:layout_width="wrap_content"
+        android:layout_height="50px" />
+
+    <ImageView
+        android:id="@+id/list_imageview_laoshiriqimore"
+        android:layout_width="wrap_content"
+        android:layout_height="20px"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/riqitu" />
+
+    <ListView
+        android:id="@+id/list_listview_laoshiyuyue"
+        android:layout_width="wrap_content"
+        android:layout_height="50px" />
+
+    <Button
+        android:id="@+id/list_button_yuyue"
+        android:layout_width="wrap_content"
+        android:layout_height="50px"
+        android:layout_gravity="center_horizontal"
+        android:text="立即预约"
+        android:textSize="25px" />
+
+    <LinearLayout
+        android:id="@+id/button_main_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_weight="0" >
+
+        <include layout="@layout/button_main" />
+    </LinearLayout>
+
+</LinearLayout>

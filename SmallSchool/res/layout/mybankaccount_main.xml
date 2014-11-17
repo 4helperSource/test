@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50px"
+        android:background="#B6DED3" >
+
+        <ImageView
+            android:id="@+id/mybankacccount_imageview_fanhuijiantou"
+            android:layout_width="30px"
+            android:layout_height="30px"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/fanhuijiantou" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="50px"
+            android:text="我的账号  MY ACCOUNT"
+            android:textColor="#FFFFFF"
+            android:textSize="25px" />
+    </LinearLayout>
+    <!--
+    <ListView
+        android:id="@+id/mylist_listview"
+        android:layout_width="wrap_content"
+        android:layout_height="100px"
+        android:background="@drawable/myzhanghaobeijing" >
+    </ListView>
+    -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40px"
+        android:background="#B6DED3" >
+
+        <ImageView
+            android:layout_width="40px"
+            android:layout_height="30px"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="60px"
+            android:src="@drawable/woshi" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30px"
+            android:text="我是家长"
+            android:textColor="#000000"
+            android:textSize="25px" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40px"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:layout_width="30px"
+            android:layout_height="30px"
+            android:layout_marginLeft="60px"
+            android:src="@drawable/pingjia" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30px"
+            android:text="老师评价"
+            android:textSize="25px" />
+
+        <ImageView
+            android:id="@+id/mybankacccount_imageview_laoshipingjia"
+            android:layout_width="20px"
+            android:layout_height="30px"
+            android:layout_marginLeft="150px"
+            android:src="@drawable/qianjinjiantou" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40px"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:layout_width="30px"
+            android:layout_height="30px"
+            android:layout_marginLeft="60px"
+            android:src="@drawable/dingdan" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30px"
+            android:text="我的订单"
+            android:textSize="25px" />
+
+        <ImageView
+            android:id="@+id/mybankacccount_imageview_mydingdan"
+            android:layout_width="20px"
+            android:layout_height="30px"
+            android:layout_marginLeft="150px"
+            android:src="@drawable/qianjinjiantou" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40px"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:layout_width="30px"
+            android:layout_height="30px"
+            android:layout_marginLeft="60px"
+            android:src="@drawable/wodeshoucang" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30px"
+            android:text="我的收藏"
+            android:textSize="25px" />
+
+        <ImageView
+            android:id="@+id/mybankacccount_imageview_myshoucang"
+            android:layout_width="20px"
+            android:layout_height="30px"
+            android:layout_marginLeft="150px"
+            android:src="@drawable/qianjinjiantou" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40px"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:layout_width="30px"
+            android:layout_height="30px"
+            android:layout_marginLeft="60px"
+            android:src="@drawable/qianbao" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30px"
+            android:text="我的钱包"
+            android:textSize="25px" />
+
+        <ImageView
+            android:id="@+id/mybankacccount_imageview_myqianbao"
+            android:layout_width="20px"
+            android:layout_height="30px"
+            android:layout_marginLeft="150px"
+            android:src="@drawable/qianjinjiantou" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40px"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:layout_width="30px"
+            android:layout_height="30px"
+            android:layout_marginLeft="60px"
+            android:src="@drawable/xinxi" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30px"
+            android:text="我的信息"
+            android:textSize="25px" />
+
+        <ImageView
+            android:id="@+id/mybankacccount_imageview_myxinxi"
+            android:layout_width="20px"
+            android:layout_height="30px"
+            android:layout_marginLeft="150px"
+            android:src="@drawable/qianjinjiantou" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40px"
+        android:background="#B6DED3" >
+
+        <ImageView
+            android:layout_width="40px"
+            android:layout_height="30px"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="60px"
+            android:src="@drawable/woshi" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30px"
+            android:text="我是老师"
+            android:textColor="#000000"
+            android:textSize="25px" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40px"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:layout_width="30px"
+            android:layout_height="30px"
+            android:layout_marginLeft="60px"
+            android:src="@drawable/renzheng" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30px"
+            android:text="认证信息"
+            android:textSize="25px" />
+
+        <ImageView
+            android:id="@+id/mybankacccount_imageview_queren"
+            android:layout_width="20px"
+            android:layout_height="30px"
+            android:layout_marginLeft="150px"
+            android:src="@drawable/qianjinjiantou" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40px"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:layout_width="30px"
+            android:layout_height="30px"
+            android:layout_marginLeft="60px"
+            android:src="@drawable/shoucangduihuakuang" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30px"
+            android:text="我的预约"
+            android:textSize="25px" />
+
+        <ImageView
+            android:id="@+id/mybankacccount_imageview_myyuyue"
+            android:layout_width="20px"
+            android:layout_height="30px"
+            android:layout_marginLeft="150px"
+            android:src="@drawable/qianjinjiantou" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40px"
+        android:background="#B6DED3" >
+
+        <ImageView
+            android:layout_width="40px"
+            android:layout_height="30px"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="60px"
+            android:src="@drawable/woshi" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30px"
+            android:text="联系我们"
+            android:textColor="#000000"
+            android:textSize="25px" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40px"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:layout_width="30px"
+            android:layout_height="30px"
+            android:layout_marginLeft="60px"
+            android:src="@drawable/lianxi" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30px"
+            android:text="联系方式"
+            android:textSize="25px" />
+
+        <ImageView
+            android:id="@+id/mybankacccount_imageview_lianxifangshi"
+            android:layout_width="20px"
+            android:layout_height="30px"
+            android:layout_marginLeft="150px"
+            android:src="@drawable/qianjinjiantou" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/mybankacccountbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#B6DED3"
+        android:text="注销"
+        android:textColor="#FFFFFF"
+        android:textSize="25px" />
+
+    <LinearLayout
+        android:id="@+id/button_main_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:paddingBottom="5px" >
+
+        <include layout="@layout/button_main" />
+    </LinearLayout>
+
+</LinearLayout>
